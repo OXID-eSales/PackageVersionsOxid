@@ -16,6 +16,15 @@ use Composer\Script\ScriptEvents;
 
 final class Installer implements PluginInterface, EventSubscriberInterface
 {
+
+    public function deactivate(Composer $composer, IOInterface $io)
+    {
+    }
+
+    public function uninstall(Composer $composer, IOInterface $io)
+    {
+    }
+
     private static $generatedClassTemplate = <<<'PHP'
 <?php
 
