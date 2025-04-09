@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.1.4 - 2025-04-09
+
+Allow composer plugin-api 2 in addition to composer plugin-api 1.
+
 ## 1.1.3 - 2017-09-06
 
 This release fixes a bug that caused PackageVersions to prevent
